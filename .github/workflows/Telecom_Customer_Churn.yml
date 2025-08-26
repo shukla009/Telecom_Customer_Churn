@@ -28,11 +28,11 @@ jobs:
 
       - name: Train Telecom SVM Model
         run: |
-          python model/train_svm.py
+          python model/train.py
 
       - name: Evaluate Telecom SVM Model
         run: |
-          python model/evaluate_svm.py
+          python model/evaluate.py
 
       - name: Run Unit Tests
         run: |
